@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/txtten"
+    android:text="tên"
+    android:textColor="#9C27B0"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtbirth"
+            android:textColor="#F44336"
+            android:text="ngày sinh"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txtphone"
+            android:textColor="#F44336"
+            android:text="ngày sinh"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <ImageView
+            android:id="@+id/imgedit"
+            android:src="@drawable/ic_action_edit"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginHorizontal="20sp"/>
+        <ImageView
+            android:src="@drawable/ic_action_call"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginHorizontal="20sp"/>
+        <ImageView
+            android:src="@drawable/ic_action_sms"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginHorizontal="20sp"/>
+    </LinearLayout>
+</LinearLayout>
